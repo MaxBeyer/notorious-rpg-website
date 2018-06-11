@@ -45,9 +45,6 @@ hr.small {
   border-color: white;
 }
 .navbar-custom {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
   position: absolute;
   top: 0;
   left: 0;
@@ -62,18 +59,29 @@ hr.small {
   font-size: 24px;
 }
 .navbar-custom .nav li a {
-  text-align: center;
   text-transform: uppercase;
   font-size: 24px;
   letter-spacing: 1px;
 }
 @media only screen and (min-width: 768px) {
+  /* this has to be defined outside of navbar-custom because the default bootstrap.css is prioritized over the centering of the navbar with a float:left call when it is defined there.  Therefore, it must be overridden. */
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
   .navbar-custom {
     display: inline-block;
     float: none;
     vertical-align: top;
     background: transparent;
     border-bottom: 1px solid transparent;
+  }
+  .navbar-custom .navbar-collapse {
+    text-align: center;
   }
   .navbar-custom .navbar-brand {
     color: white;
@@ -93,6 +101,15 @@ hr.small {
   }
 }
 @media only screen and (min-width: 1170px) {
+  /* this has to be defined outside of navbar-custom because the default bootstrap.css is prioritized over the centering of the navbar with a float:left call when it is defined there.  Therefore, it must be overridden. */
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
   .navbar-custom {
     -webkit-transition: background-color 0.3s;
     -moz-transition: background-color 0.3s;
