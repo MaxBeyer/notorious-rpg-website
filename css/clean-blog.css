@@ -46,6 +46,9 @@ hr.small {
   border-color: white;
 }
 .navbar-custom {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
   position: absolute;
   top: 0;
   left: 0;
@@ -63,13 +66,16 @@ hr.small {
   font-size: 12px;
 }
 .navbar-custom .nav li a {
+  text-align: center;
   text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 800;
+  font-size: 24px;
   letter-spacing: 1px;
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
     background: transparent;
     border-bottom: 1px solid transparent;
   }
