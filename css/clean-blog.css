@@ -53,7 +53,7 @@ hr.small {
   z-index: 3;
   font-family: "BigNoodleTitling", 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-.navbar-custom .navbar-brand {
+.navbar-custom {
   font-weight: 800;
 }
 .navbar-custom .navbar-header .navbar-toggle {
@@ -73,12 +73,12 @@ hr.small {
     background: transparent;
     border-bottom: 1px solid transparent;
   }
-  .navbar-custom .navbar-brand {
+  .navbar-custom  {
     color: white;
     padding: 20px;
   }
-  .navbar-custom .navbar-brand:hover,
-  .navbar-custom .navbar-brand:focus {
+  .navbar-custom :hover,
+  .navbar-custom :focus {
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li a {
@@ -114,11 +114,11 @@ hr.small {
     -moz-transition: -moz-transform 0.3s;
     transition: transform 0.3s;
   }
-  .navbar-custom.is-fixed .navbar-brand {
+  .navbar-custom.is-fixed  {
     color: #333333;
   }
-  .navbar-custom.is-fixed .navbar-brand:hover,
-  .navbar-custom.is-fixed .navbar-brand:focus {
+  .navbar-custom.is-fixed :hover,
+  .navbar-custom.is-fixed :focus {
     color: #0085A1;
   }
   .navbar-custom.is-fixed .nav li a {
