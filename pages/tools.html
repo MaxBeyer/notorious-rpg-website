@@ -118,23 +118,47 @@
           <p id="mutationPlaceholderDescription"> </p>
         </div>
 
-        <div class='container col-md-3 col-md-offset-1'>
-          <div class='panel-group'>
-            <div class='panel'>
-              <h3><a data-toggle='collapse' data-parent='.panel-group' href='#reactiveEffects' id='reactiveEffectsTitle'>Reactive Effects</a></h3>
-              <div id='reactiveEffects' class='panel-collapse collapse'>
-                <div class='panel-body'>
-                  <p>Some mutations have what’s called reactive effects. These are marked (R) on the Mutation Cards and in this chapter. In a conflict, you can activate a reactive effect any time you want, and any number of times in a single turn. Activating a reactive effect does not count as an action or as a maneuver – all you need is MP to spend.</p>
+
+        <div class="modal fade reactiveEffects" tabindex="-1" role="dialog" aria-labelledby="reactiveEffects" aria-hidden="true" id="reactiveEffects">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Reactive Effects</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Some mutations have what’s called reactive effects (R). In a conflict, you can activate a reactive effect any time you want, and any number of times in a single turn. Activating a reactive effect does not count as an action or as a maneuver – all you need is MP to spend.</p>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div class="modal fade enhancingEffects" tabindex="-1" role="dialog" aria-labelledby="enhancingEffects" aria-hidden="true" id="enhancingEffects">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Enhancing Effects</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Another type of mutation effect is the enhancing effect (E). You activate an enhancing effect at the same time as you perform an action or a maneuver, to enhance it. Using an enhancing effect does not count as an action or a maneuver in itself. When using an enhancing effect with a skill roll, roll for the mutation first and then for the skill.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class='container col-md-3 col-md-offset-1'>
+          <div class='panel-group'>
+            <div class='panel'>
+            <h3><a href="#reactiveEffects" data-toggle="modal" data-target="#reactiveEffects">Reactive Effects</a></h3>
+            </div>
 
             <div class='panel'>
-              <h3><a data-toggle='collapse' data-parent='.panel-group' href='#enhancingEffects' id='enhancingEffectsTitle'>Enhancing Effects</a></h3>
-              <div id='enhancingEffects' class='panel-collapse collapse'>
-                <div class='panel-body'>
-                  <p>Another type of mutation effect is the enhancing effect. These are marked (E). You activate an enhancing effect at the same time as you perform an action or a maneuver, to enhance it. Using an enhancing effect does not count as an action or a maneuver in itself. When using an enhancing effect with a skill roll, roll for the mutation first and then for the skill.</p>
-                </div>
+              <h3><a href="#enhancingEffects" data-toggle="modal" data-target="#enhancingEffects">Enhancing Effects</a></h3>
               </div>
             </div>
           </div>
@@ -163,6 +187,20 @@
     </div>
   </div>
 
+  <!-- jQuery -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script src="/js/jqBootstrapValidation.js"></script>
+  <script src="/js/contact_me.js"></script>
+
+  <!-- Theme JavaScript -->
+  <script src="/js/clean-blog.min.js"></script>
+
+  <!-- Data Modules -->
   <script type="module" src="/js/dice.js"></script>
   <script type="module" src="/js/data/mutationsData.js"></script>
   <script type="module" src="/js/data/sectorData.js"></script>
@@ -171,8 +209,6 @@
   <script type="module" src="/js/data/ruinData.js"></script>
   <script type="module" src="/js/data/artifactData.js"></script>
   <script type="module" src="/js/data/threatData.js"></script>
-	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-  <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 </html>
