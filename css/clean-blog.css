@@ -9,7 +9,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background: linear-gradient(rgba(255,255,255,.70),rgba(255,255,255,.70)),
-              url('/img/background.bmp');
+              url('../img/background.bmp');
   background-size: cover;
   background-position-y: 15em;
   background-repeat: no-repeat;
@@ -159,7 +159,7 @@ hr.small {
   background-color: #777777;
   background: no-repeat center center;
   background-image: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
-                    url("/img/wasteland.jpg");
+                    url("../img/wasteland.jpg");
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
