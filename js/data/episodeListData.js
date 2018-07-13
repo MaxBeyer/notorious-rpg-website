@@ -15,14 +15,13 @@ const episodeData = [
 
 function episodeTemplate(episode) {
   return `
-    <div class="well">
       <h3>${episode.title}</h3>
       <p><i>${episode.date}</i></p>
       <p>${episode.description}</p>
       <audio controls="controls" src="${episode.audio}">
         Your browser does not support the HTML5 audio element.
       </audio>
-    </div>
+      <hr>
   `;
 }
 
