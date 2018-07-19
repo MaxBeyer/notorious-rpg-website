@@ -53,6 +53,10 @@ hr.small {
   border-color: white;
 }
 
+hr.darker{
+  border-top: 1px solid #d3d3d3;
+}
+
 .navbar-custom {
   position: absolute;
   top: 0;

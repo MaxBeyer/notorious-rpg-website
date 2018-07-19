@@ -21,7 +21,7 @@ function episodeTemplate(episode) {
       <audio controls="controls" src="${episode.audio}">
         Your browser does not support the HTML5 audio element.
       </audio>
-      <hr>
+      <hr class="darker">
   `;
 }
 
