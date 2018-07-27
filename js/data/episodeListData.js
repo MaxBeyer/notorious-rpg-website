@@ -1,5 +1,11 @@
 const episodeData = [
   {
+    title: "Episode 3",
+    date: "July 27, 2018",
+    description: "Corny Falco gets stuck in his suit, Pavlovena has a run in with her favorite enforcer, and Lefty feels guilty after pocketing the direction finder instead of securing it in the Dawn Vault. He attempts to recruit his friends to venture out into the Zone to find more items of value to make up for his perceived selfishness.",
+    audio: "http://media.blubrry.com/thenotoriousrpg/static1.squarespace.com/static/51f14daae4b0e3adff18a86a/t/5b5b6a458a922d6e91a4b9e5/1532717711553/Episode+3.mp3/original/Episode+3.mp3"
+  },
+  {
     title: "Episode 2",
     date: "July 12, 2018",
     description: "Lefty wonders about the possibilities of an artifact he found, but he needs his friends Corny Falco and Pavlovena to help identify what it is and what it does. Meanwhile the people of the Ark decide to build defenses to protect against the dangers of The Zone, when trouble strikes!<br><br>Original music composed by Max Beyer, and a big thanks to these other artists for their music found at freesound.org:<br><br>Sirkoto51 - Anime Fight Music Loop <br><br> neehnahw - Konflict",
