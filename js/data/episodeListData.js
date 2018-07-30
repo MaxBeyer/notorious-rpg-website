@@ -3,7 +3,7 @@ const episodeData = [
     title: "Episode 3",
     date: "July 27, 2018",
     description: "Corny Falco gets stuck in his suit, Pavlovena has a run in with her favorite enforcer, and Lefty feels guilty after pocketing the direction finder instead of securing it in the Dawn Vault. He attempts to recruit his friends to venture out into the Zone to find more items of value to make up for his perceived selfishness.",
-    audio: "http://media.blubrry.com/thenotoriousrpg/static1.squarespace.com/static/51f14daae4b0e3adff18a86a/t/5b5b6a458a922d6e91a4b9e5/1532717711553/Episode+3.mp3/original/Episode+3.mp3"
+    audio: "http://media.blubrry.com/thenotoriousrpg/static1.squarespace.com/static/51f14daae4b0e3adff18a86a/t/5b5c7c081ae6cf84851a7164/1532787797843/Episode+3+%281%29.mp3/original/Episode+3+%281%29.mp3"
   },
   {
     title: "Episode 2",
