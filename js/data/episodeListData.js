@@ -1,4 +1,11 @@
 const episodeData = [
+
+  {
+    title: "Episode 4",
+    date: "August 8, 2018",
+    description: "<p>Lefty, Corny, and Pavlovena venture into the Zone.  They cross a bridge and find their friend Weezle is in trouble.  Meanwhile, a building nearby somehow has electricity.</p><p>Original music composed by Max Beyer, and a big thanks to Neehnahw from freesound.org for the use of their work Konflict.</p>",
+    audio: "http://media.blubrry.com/thenotoriousrpg/static1.squarespace.com/static/51f14daae4b0e3adff18a86a/t/5b6c4f460ebbe85efff45ca4/1533824914396/Episode+4+Final.mp3/original/Episode+4+Final.mp3"
+  },
   {
     title: "Episode 3",
     date: "July 27, 2018",
