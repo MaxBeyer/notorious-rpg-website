@@ -25,7 +25,7 @@ function episodeTemplate(episode) {
       <p><i>${episode.date}</i></p>
       <p>${episode.description}</p>
       <audio controls="controls" src="${episode.audio}">
-        Your browser does not support the HTML5 audio element.
+        Whoopsie Doopsie, an error occured!
       </audio>
       <hr class="darker">
   `;

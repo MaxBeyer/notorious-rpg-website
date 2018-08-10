@@ -63,7 +63,7 @@ generateSectorButton.onclick = function() {
   //validate the threatLevelInput is present
   let threatLevelInput = document.getElementById('threatLevelInput').value;
   if(threatLevelInput == ""){
-    alert("You have to enter a threat leve first. How else will you fuck up the players?")
+    alert("You have to enter a threat level first. How else will you fuck up the players?")
   } else {
     generateSector(threatLevelInput)
   }
