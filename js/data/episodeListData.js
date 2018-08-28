@@ -1,10 +1,3 @@
-var xml;
-console.log(xml);
-function preload() {
-  xml = loadXML('http://dangerboat.net/nrpg?format=rss');
-}
-console.log(xml);
-
 const episodeData = [
 
   {
@@ -32,8 +25,6 @@ const episodeData = [
     audio: "http://media.blubrry.com/thenotoriousrpg/static1.squarespace.com/static/51f14daae4b0e3adff18a86a/t/5b460f280e2e72b22160548c/1531318139855/Episode+1.mp3/original/Episode+1.mp3"
   }
 ];
-
-
 
 function episodeTemplate(episode) {
   return `
