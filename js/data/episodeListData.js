@@ -6,10 +6,15 @@ function preload() {
 console.log(xml);
 
 const episodeData = [
-
+  {
+    title: "Episode 5",
+    date: "August 24, 2018",
+    description: "<p>A mysterious building that glows with devil lights is found in the zone and explored.  Pavlovena gives Crisp special orders, Corny identifies electronic wonders, and Lefty gets distracted hunting a beast through dark hallways.</p><p>Original music composed by Max Beyer.</p>",
+    audio: "http://media.blubrry.com/thenotoriousrpg/static1.squarespace.com/static/51f14daae4b0e3adff18a86a/t/5b800008c2241bb63030f648/1535115349624/Episode+5+Final.mp3/original/Episode+5+Final.mp3"
+  },
   {
     title: "Episode 4",
-    date: "August 8, 2018",
+    date: "August 9, 2018",
     description: "<p>Lefty, Corny, and Pavlovena venture into the Zone.  They cross a bridge and find their friend Weezle is in trouble.  Meanwhile, a building nearby somehow has electricity.</p><p>Original music composed by Max Beyer, and a big thanks to Neehnahw from freesound.org for the use of their work Konflict.</p>",
     audio: "http://media.blubrry.com/thenotoriousrpg/static1.squarespace.com/static/51f14daae4b0e3adff18a86a/t/5b6c4f460ebbe85efff45ca4/1533824914396/Episode+4+Final.mp3/original/Episode+4+Final.mp3"
   },
