@@ -33,13 +33,13 @@ const episodeData = [
 
 function episodeTemplate(episode) {
   return `
+      <hr class="darker">
       <h3>${episode.title}</h3>
       <p><i>${episode.date}</i></p>
       <p>${episode.description}</p>
       <audio controls="controls" src="${episode.audio}">
         Whoopsie Doopsie, an error occured!
       </audio>
-      <hr class="darker">
   `;
 }
 
