@@ -1,5 +1,11 @@
 const episodeData = [
   {
+    title: "Episode 6",
+    date: "September 6, 2018",
+    description: "<p>Torn between whether to return to the Ark or keep exploring the Zone for more artifacts, the gang opts for more sweet loot.  They also learn that there’s more threats in the Zone than just Zone Ghouls when nature tests them.</p><p>All music composed by Max Beyer</p>",
+    audio: "http://media.blubrry.com/thenotoriousrpg/static1.squarespace.com/static/51f14daae4b0e3adff18a86a/t/5b9131521ae6cf6b8265ed56/1536242071380/Episode+6+Final.mp3/original/Episode+6+Final.mp3"
+  },
+  {
     title: "Episode 5",
     date: "August 24, 2018",
     description: "<p>A mysterious building that glows with devil lights is found in the zone and explored.  Pavlovena gives Crisp special orders, Corny identifies electronic wonders, and Lefty gets distracted hunting a beast through dark hallways.</p><p>Original music composed by Max Beyer.</p>",
