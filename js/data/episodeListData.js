@@ -1,5 +1,17 @@
 const episodeData = [
   {
+    title: "Episode 8",
+    date: "October 4, 2018",
+    description: "<p>An assembly has called for the retrieval of the generator from the theater glowing with devil lights.  However, being forced to team with murderous Reptilia could prove to be difficult.</p> <p> Music composed by Max Beyer</p>",
+    audio: "http://media.blubrry.com/thenotoriousrpg/static1.squarespace.com/static/51f14daae4b0e3adff18a86a/t/5bb66a1cec212d102d42c889/1538681438099/Episode+8.mp3/original/Episode+8.mp3"
+  },
+  {
+    title: "Episode 7",
+    date: "September 20, 2018",
+    description: "<p>The gang deposits their artifacts to the Dawn Vault, and calls an assembly for a special Zone expedition.  Meanwhile, tensions are on the rise between Boss Aquifi and the gearheads of the Ark. </p><p>Music composed by Max Beyer</p>",
+    audio: "http://media.blubrry.com/thenotoriousrpg/static1.squarespace.com/static/51f14daae4b0e3adff18a86a/t/5ba3af7940ec9aa754559ec1/1537454018551/Episode+7+Final.mp3/original/Episode+7+Final.mp3"
+  },
+  {
     title: "Episode 6",
     date: "September 6, 2018",
     description: "<p>Torn between whether to return to the Ark or keep exploring the Zone for more artifacts, the gang opts for more sweet loot.  They also learn that there’s more threats in the Zone than just Zone Ghouls when nature tests them.</p><p>All music composed by Max Beyer</p>",
