@@ -1,5 +1,11 @@
 const episodeData = [
   {
+    title: "Episode 9",
+    date: "October 18, 2018",
+    description: "<p>  The gang learns about their new gearhead allies, as well as newer more fearsome threats in the zone to look out for.  Meanwhile, Reptilia, and for some reason Corny, continue to try to kill Weezle.  What will it be like to bring gearheads back to a community that's in the middle of a purge?</p><p>Music composed by Max Beyer</p>",
+    audio: "http://media.blubrry.com/thenotoriousrpg/static1.squarespace.com/static/51f14daae4b0e3adff18a86a/t/5bc8851a24a694f7707eaa19/1539868021071/Episode+9+-+Final.mp3/original/Episode+9+-+Final.mp3"
+  },
+  {
     title: "Episode 8",
     date: "October 4, 2018",
     description: "<p>An assembly has called for the retrieval of the generator from the theater glowing with devil lights.  However, being forced to team with murderous Reptilia could prove to be difficult.</p> <p> Music composed by Max Beyer</p>",
