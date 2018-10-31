@@ -1,5 +1,11 @@
 const episodeData = [
   {
+    title: "Spooky Halloween Episode!",
+    date: "October 31, 2018",
+    description: "<p>Meghan Wolff (Co-Host of Good Luck High Five) joins our characters as we play this one shot using Dread RPG System!</p> <p>Lefty learned of powerful artifacts being kept in a far away sector on the zone map.  He enlisted the help of Pavlovena and Chip Carmichael to help retrieve them. </p> <p>Music composed by Max Beyer</p>",
+    audio: "http://media.blubrry.com/thenotoriousrpg/static1.squarespace.com/static/51f14daae4b0e3adff18a86a/t/5bd9c2af03ce64d76595e5b6/1540997936040/Episode+10+Final.mp3/original/Episode+10+Final.mp3"
+  },
+  {
     title: "Episode 9",
     date: "October 18, 2018",
     description: "<p>  The gang learns about their new gearhead allies, as well as newer more fearsome threats in the zone to look out for.  Meanwhile, Reptilia, and for some reason Corny, continue to try to kill Weezle.  What will it be like to bring gearheads back to a community that's in the middle of a purge?</p><p>Music composed by Max Beyer</p>",
