@@ -1,5 +1,11 @@
 const episodeData = [
   {
+    title: "Episode 11",
+    date: "December 4th, 2018",
+    description: "<p>Face off!...or face on?</p><p>The gang tries their plan of floating the generator across the river in the jury-rigged Paul Bunyan statue boat, while also finding a unique solution to entering the Ark without Reptillia (they rip his face off and put it on a zone ghoul).  Meanwhile, things have been heating up in the Ark while they were away.</p> <p>Music and pruduction by Max Beyer</p>",
+    audio: `<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7792721/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/no/preload/no/no_addthis/no/direction/forward/render-playlist/no/custom-color/000000/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>`
+  },
+  {
     title: "Episode 10",
     date: "November 15, 2018",
     description: "<p>With the threat of Reptilia now neutralized, the gang faces a new obstacle: a group of 8 zone ghouls. Things may not be what they seem though as they continue to learn more about the wasteland beyond the walls of the Gut.</p> <p>Music composed by Max Beyer</p>",
@@ -9,7 +15,7 @@ const episodeData = [
     title: "Spooky Halloween Episode!",
     date: "October 31, 2018",
     description: "<p>Meghan Wolff (Co-Host of Good Luck High Five) joins our characters as we play this one shot using Dread RPG System!</p> <p>Lefty learned of powerful artifacts being kept in a far away sector on the zone map.  He enlisted the help of Pavlovena and Chip Carmichael to help retrieve them. </p> <p>Music composed by Max Beyer</p>",
-    audio: `<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7573226/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/forward/render-playlist/no/custom-color/000000/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>`
+    audio: `<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7573226/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/no/preload/no/no_addthis/no/direction/forward/render-playlist/no/custom-color/000000/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>`
   },
   {
     title: "Episode 9",
