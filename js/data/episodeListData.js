@@ -1,5 +1,11 @@
 const episodeData = [
   {
+    title: "Episode 12",
+    date: "December 13th, 2018",
+    description: "<p>The gang develops schemes on how to covertly enter the Gut now that Aquifi has taken charge. They receive a special jury-rigged item from their gearhead friends before entering, and altercations ensue.</p> <p>Music and pruduction by Max Beyer</p>",
+    audio: `<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7913252/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/no/preload/no/no_addthis/no/direction/forward/render-playlist/no/custom-color/000000/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>`
+  },
+  {
     title: "Episode 11",
     date: "December 4th, 2018",
     description: "<p>Face off!...or face on?</p><p>The gang tries their plan of floating the generator across the river in the jury-rigged Paul Bunyan statue boat, while also finding a unique solution to entering the Ark without Reptillia (they rip his face off and put it on a zone ghoul).  Meanwhile, things have been heating up in the Ark while they were away.</p> <p>Music and pruduction by Max Beyer</p>",
