@@ -2,6 +2,12 @@ const episodeData = [
   {
     title: "Episode 12",
     date: "December 13th, 2018",
+    description: "<p>Things continue to heat up as Corny remains steadfast in his new found toughness, secrets of Pavlovena's love life get uncovered, and Lefty... continues to have two left feet!</p> <p>Music and pruduction by Max Beyer</p>",
+    audio: `<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/8185394/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/no/preload/no/no_addthis/no/direction/forward/render-playlist/no/custom-color/000000/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>`
+  },
+  {
+    title: "Episode 12",
+    date: "December 13th, 2018",
     description: "<p>The gang develops schemes on how to covertly enter the Gut now that Aquifi has taken charge. They receive a special jury-rigged item from their gearhead friends before entering, and altercations ensue.</p> <p>Music and pruduction by Max Beyer</p>",
     audio: `<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7913252/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/no/preload/no/no_addthis/no/direction/forward/render-playlist/no/custom-color/000000/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>`
   },
