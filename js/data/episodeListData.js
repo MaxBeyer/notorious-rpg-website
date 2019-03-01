@@ -1,5 +1,17 @@
 const episodeData = [
   {
+    title: "Episode 17",
+    date: "February 28th, 2019",
+    description: "<p>	The gang decides to make the Gut stronger by focusing on an ark project: Zone Wrestling.  However, right when things are about to heat up inside the ring, something else heats up outside the walls...</p><p>Music and pruduction by Max Beyer</p>",
+    audio: `<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/8832170/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/no/preload/no/no_addthis/no/direction/forward/render-playlist/no/custom-color/000000/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>`
+  },
+  {
+    title: "Episode 16",
+    date: "February 14th, 2019",
+    description: "<p>The Ark has had time to recover and grow since the snafu with Boss Aquifee. Meanwhile, Lefty, Corny, and Pavlovena are given an offer they can't refuse...</p> <p>Music and pruduction by Max Beyer</p>",
+    audio: `<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/8642780/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/no/preload/no/no_addthis/no/direction/forward/render-playlist/no/custom-color/000000/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>`
+  },
+  {
     title: "Episode 15",
     date: "January 31st, 2019",
     description: "<p>The mutants are still engrossed in a battle with Aquifee's enforcers, and who will ultimately end up with control of the water resource is anyone's guess. See how this, and everything else, unfolds in this Season Finale.</p> <p>Music and pruduction by Max Beyer</p>",
